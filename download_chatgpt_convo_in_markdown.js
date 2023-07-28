@@ -76,7 +76,7 @@ function createDownloadButton(){
 	var regenButtonCont;
 	document.querySelectorAll(`div > button > div`).forEach( div =>
 	{
-    regenButtonCont = div.textContent.includes("Regenerate response") ? div.parentNode.parentNode : false;
+    regenButtonCont = div.textContent.includes("Regenerate") ? div.parentNode.parentNode : false;
 	})
 
 	if ( regenButtonCont != false )
